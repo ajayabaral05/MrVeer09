@@ -157,7 +157,7 @@
 
   <script>
     /* ── Countdown: 5 minutes = 300 seconds ── */
-    let totalSeconds = 0 * 60;
+    let totalSeconds = 1 * 60;
 
     function pad(n) { return String(n).padStart(2, '0'); }
 
@@ -179,7 +179,7 @@
 
       /* Fire Meta Pixel custom event — name exactly: "Telegram Join" */
       if (typeof fbq === 'function') {
-        fbq('trackCustom', 'Telegram Join');
+        fbq('track', 'Subscribe');
       }
 
       /* Ripple animation */
