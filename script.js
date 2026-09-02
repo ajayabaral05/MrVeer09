@@ -4,7 +4,7 @@
     ========================================== */
 
     const TELEGRAM_URL =
-      'https://t.me/+V3GANmUmyDs2NDRl';
+      'https://t.me/+3nA2sI2M1JQ4YTdl';
 
 
 
