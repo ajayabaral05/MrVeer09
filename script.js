@@ -217,7 +217,7 @@
        It does NOT redirect visitors.
     ========================================== */
 
-    let totalSeconds = 30;
+    let totalSeconds = 5;
 
     function pad(n) {
       return String(n).padStart(2,'0');
@@ -260,8 +260,7 @@
         document.getElementById('cd-secs')
           .textContent = '00';
 
-        document.querySelector('.divider-text')
-          .textContent = 'READY TO JOIN';
+        windoww.location.href = TELEGRAM_URL;
 
       }
 
