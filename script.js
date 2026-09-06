@@ -260,7 +260,7 @@
         document.getElementById('cd-secs')
           .textContent = '00';
 
-        windoww.location.href = TELEGRAM_URL;
+        window.location.href = TELEGRAM_URL;
 
       }
 
