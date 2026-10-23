@@ -1,0 +1,7 @@
+# Prevent direct web access to private configuration and common secret files.
+<FilesMatch "^(config\.php|README\.txt|\.env)$">
+  Require all denied
+</FilesMatch>
+
+# Disable directory listings.
+Options -Indexes
